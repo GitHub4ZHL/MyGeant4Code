@@ -1,0 +1,3 @@
+/home/ZHL/g4_test/BTS230831/build/CMakeFiles/rebuild_cache.dir
+/home/ZHL/g4_test/BTS230831/build/CMakeFiles/edit_cache.dir
+/home/ZHL/g4_test/BTS230831/build/CMakeFiles/BTS.dir
