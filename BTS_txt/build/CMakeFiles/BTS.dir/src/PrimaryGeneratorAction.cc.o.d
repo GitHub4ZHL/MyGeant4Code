@@ -1,7 +1,7 @@
 CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/ZHL/g4_test/BTS230831/src/PrimaryGeneratorAction.cc \
+ /home/ZHL/g4_test/StepToEventToRun/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /home/ZHL/g4_test/BTS230831/include/PrimaryGeneratorAction.hh \
+ /home/ZHL/g4_test/StepToEventToRun/include/PrimaryGeneratorAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4ParticleGun.hh \
  /home/ZHL/Geant4/install/include/Geant4/globals.hh \

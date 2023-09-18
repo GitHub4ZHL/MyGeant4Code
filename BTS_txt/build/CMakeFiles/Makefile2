@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ZHL/g4_test/BTS230831
+CMAKE_SOURCE_DIR = /home/ZHL/g4_test/StepToEventToRun
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ZHL/g4_test/BTS230831/build
+CMAKE_BINARY_DIR = /home/ZHL/g4_test/StepToEventToRun/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/BTS.dir/clean
 CMakeFiles/BTS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BTS.dir/build.make CMakeFiles/BTS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BTS.dir/build.make CMakeFiles/BTS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ZHL/g4_test/BTS230831/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target BTS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target BTS"
 .PHONY : CMakeFiles/BTS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BTS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ZHL/g4_test/BTS230831/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BTS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ZHL/g4_test/BTS230831/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles 0
 .PHONY : CMakeFiles/BTS.dir/rule
 
 # Convenience name for target.

@@ -1,6 +1,6 @@
-CMakeFiles/BTS.dir/BTS.cc.o: /home/ZHL/g4_test/BTS230831/BTS.cc \
+CMakeFiles/BTS.dir/BTS.cc.o: /home/ZHL/g4_test/StepToEventToRun/BTS.cc \
  /usr/include/stdc-predef.h \
- /home/ZHL/g4_test/BTS230831/include/DetectorConstruction.hh \
+ /home/ZHL/g4_test/StepToEventToRun/include/DetectorConstruction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/x86_64-redhat-linux/bits/c++config.h \
@@ -204,12 +204,8 @@ CMakeFiles/BTS.dir/BTS.cc.o: /home/ZHL/g4_test/BTS230831/BTS.cc \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
  /home/ZHL/Geant4/install/include/Geant4/globals.hh \
- /home/ZHL/g4_test/BTS230831/include/ActionInitialization.hh \
+ /home/ZHL/g4_test/StepToEventToRun/include/ActionInitialization.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VUserActionInitialization.hh \
- /usr/include/c++/11/fstream \
- /usr/include/c++/11/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/11/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc \
  /home/ZHL/Geant4/install/include/Geant4/G4RunManagerFactory.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4RunManager.hh \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
@@ -325,6 +321,10 @@ CMakeFiles/BTS.dir/BTS.cc.o: /home/ZHL/g4_test/BTS230831/BTS.cc \
  /home/ZHL/Geant4/install/include/Geant4/G4MaterialPropertyVector.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4PhysicsFreeVector.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4PhysicsVector.hh \
+ /usr/include/c++/11/fstream \
+ /usr/include/c++/11/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/11/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc \
  /home/ZHL/Geant4/install/include/Geant4/G4PhysicsVectorType.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4PhysicsVector.icc \
  /home/ZHL/Geant4/install/include/Geant4/G4IonisParamMat.hh \

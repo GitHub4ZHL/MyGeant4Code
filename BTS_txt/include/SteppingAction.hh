@@ -1,5 +1,5 @@
-#ifndef B1SteppingAction_h
-#define B1SteppingAction_h 1
+#ifndef BTSSteppingAction_h
+#define BTSSteppingAction_h 1
 
 #include "G4UserSteppingAction.hh"
 #include "globals.hh"
@@ -16,12 +16,13 @@ class SteppingAction : public G4UserSteppingAction
   public:
     SteppingAction(EventAction* eventAction);
     ~SteppingAction() override = default;
-    virtual void UserSteppingAction(const G4Step*);
 
-    void SetOutFilePP(std::ofstream** OutFilePP);
+    // method from the base class
+    void UserSteppingAction(const G4Step*) override;
+
   private:
     EventAction* fEventAction = nullptr;
-    std::ofstream** m_OutFilePP; 
+    G4LogicalVolume* fScoringVolume = nullptr;
 };
 
 }

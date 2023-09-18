@@ -1,7 +1,7 @@
 CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o: \
- /home/ZHL/g4_test/BTS230831/src/DetectorConstruction.cc \
+ /home/ZHL/g4_test/StepToEventToRun/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/ZHL/g4_test/BTS230831/include/DetectorConstruction.hh \
+ /home/ZHL/g4_test/StepToEventToRun/include/DetectorConstruction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/x86_64-redhat-linux/bits/c++config.h \

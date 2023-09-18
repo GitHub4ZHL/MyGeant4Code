@@ -1,7 +1,7 @@
 CMakeFiles/BTS.dir/src/SteppingAction.cc.o: \
- /home/ZHL/g4_test/BTS230831/src/SteppingAction.cc \
+ /home/ZHL/g4_test/StepToEventToRun/src/SteppingAction.cc \
  /usr/include/stdc-predef.h \
- /home/ZHL/g4_test/BTS230831/include/SteppingAction.hh \
+ /home/ZHL/g4_test/StepToEventToRun/include/SteppingAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4UserSteppingAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/globals.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4ios.hh \
@@ -203,58 +203,28 @@ CMakeFiles/BTS.dir/src/SteppingAction.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/ZHL/g4_test/BTS230831/include/EventAction.hh \
+ /home/ZHL/g4_test/StepToEventToRun/include/EventAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4UserEventAction.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4RunManager.hh \
- /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
- /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/bits/list.tcc \
- /home/ZHL/Geant4/install/include/Geant4/rundefs.hh \
- /home/ZHL/Geant4/install/include/Geant4/globals.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4Event.hh \
- /home/ZHL/Geant4/install/include/Geant4/evtdefs.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4Allocator.hh \
- /usr/include/c++/11/cstddef \
- /home/ZHL/Geant4/install/include/Geant4/G4AllocatorPool.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4PrimaryVertex.hh \
- /home/ZHL/Geant4/install/include/Geant4/pwdefs.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4ThreeVector.hh \
+ /home/ZHL/Geant4/install/include/Geant4/globals.hh \
  /usr/local/include/CLHEP/Vector/ThreeVector.h \
  /usr/local/include/CLHEP/Vector/defs.h \
  /usr/local/include/CLHEP/Vector/ThreeVector.icc \
- /home/ZHL/Geant4/install/include/Geant4/G4PrimaryParticle.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4HCofThisEvent.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4VHitsCollection.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4DCofThisEvent.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4VDigiCollection.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4TrajectoryContainer.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4VTrajectory.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4VUserEventInformation.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4Profiler.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4Profiler.icc \
- /home/ZHL/Geant4/install/include/Geant4/PTL/Globals.hh \
- /home/ZHL/Geant4/install/include/Geant4/PTL/Types.hh \
- /home/ZHL/Geant4/install/include/Geant4/PTL/Utility.hh \
- /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h \
- /home/ZHL/Geant4/install/include/Geant4/G4EventManager.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4StackManager.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4UserStackingAction.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4ClassificationOfNewTrack.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4StackedTrack.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4TrackStack.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4SmartTrackStack.hh \
+ /home/ZHL/g4_test/StepToEventToRun/include/DetectorConstruction.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4Track.hh \
  /usr/local/include/CLHEP/Units/PhysicalConstants.h \
  /usr/local/include/CLHEP/Units/defs.h \
  /usr/local/include/CLHEP/Units/SystemOfUnits.h \
  /home/ZHL/Geant4/install/include/Geant4/trkdefs.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4ThreeVector.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4LogicalVolume.hh \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
  /usr/include/c++/11/bits/shared_ptr.h \
  /usr/include/c++/11/bits/shared_ptr_base.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/concurrence.h \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
  /usr/include/c++/11/bits/atomic_base.h \
@@ -291,10 +261,14 @@ CMakeFiles/BTS.dir/src/SteppingAction.cc.o: \
  /usr/local/include/CLHEP/Vector/Rotation.icc \
  /home/ZHL/Geant4/install/include/Geant4/G4VPhysicalVolume.icc \
  /home/ZHL/Geant4/install/include/Geant4/G4LogicalVolume.icc \
+ /home/ZHL/Geant4/install/include/Geant4/G4Allocator.hh \
+ /usr/include/c++/11/cstddef \
+ /home/ZHL/Geant4/install/include/Geant4/G4AllocatorPool.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4DynamicParticle.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4ParticleDefinition.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4PDefManager.hh \
  /usr/include/c++/11/stdlib.h \
+ /home/ZHL/Geant4/install/include/Geant4/pwdefs.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4ParticleDefinition.icc \
  /home/ZHL/Geant4/install/include/Geant4/G4LorentzVector.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4Log.hh \
@@ -334,6 +308,13 @@ CMakeFiles/BTS.dir/src/SteppingAction.cc.o: \
  /home/ZHL/Geant4/install/include/Geant4/G4DataVector.icc \
  /usr/include/assert.h \
  /home/ZHL/Geant4/install/include/Geant4/G4MaterialTable.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4Profiler.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4Profiler.icc \
+ /home/ZHL/Geant4/install/include/Geant4/PTL/Globals.hh \
+ /home/ZHL/Geant4/install/include/Geant4/PTL/Types.hh \
+ /home/ZHL/Geant4/install/include/Geant4/PTL/Utility.hh \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h \
  /home/ZHL/Geant4/install/include/Geant4/G4Track.icc \
  /home/ZHL/Geant4/install/include/Geant4/G4Step.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4StepPoint.hh \
@@ -342,6 +323,31 @@ CMakeFiles/BTS.dir/src/SteppingAction.cc.o: \
  /home/ZHL/Geant4/install/include/Geant4/G4StepPoint.icc \
  /home/ZHL/Geant4/install/include/Geant4/G4TrackVector.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4Step.icc \
+ /home/ZHL/Geant4/install/include/Geant4/G4Track.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4Step.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4Event.hh \
+ /home/ZHL/Geant4/install/include/Geant4/evtdefs.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4PrimaryVertex.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4PrimaryParticle.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4HCofThisEvent.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4VHitsCollection.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4DCofThisEvent.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4VDigiCollection.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4TrajectoryContainer.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4VTrajectory.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4VUserEventInformation.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4RunManager.hh \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
+ /usr/include/c++/11/bits/list.tcc \
+ /home/ZHL/Geant4/install/include/Geant4/rundefs.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4Event.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4EventManager.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4StackManager.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4UserStackingAction.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4ClassificationOfNewTrack.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4StackedTrack.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4TrackStack.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4SmartTrackStack.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4PrimaryTransformer.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4ParticleTable.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4ParticleTableIterator.hh \
@@ -488,6 +494,4 @@ CMakeFiles/BTS.dir/src/SteppingAction.cc.o: \
  /home/ZHL/Geant4/install/include/Geant4/G4ApplicationState.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4UserTrackingAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4RunManagerKernel.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4Step.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4Track.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4StepPoint.hh
+ /home/ZHL/Geant4/install/include/Geant4/G4LogicalVolume.hh

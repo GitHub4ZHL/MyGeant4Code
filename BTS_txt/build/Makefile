@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ZHL/g4_test/BTS230831
+CMAKE_SOURCE_DIR = /home/ZHL/g4_test/StepToEventToRun
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ZHL/g4_test/BTS230831/build
+CMAKE_BINARY_DIR = /home/ZHL/g4_test/StepToEventToRun/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ZHL/g4_test/BTS230831/build/CMakeFiles /home/ZHL/g4_test/BTS230831/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles /home/ZHL/g4_test/StepToEventToRun/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ZHL/g4_test/BTS230831/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
