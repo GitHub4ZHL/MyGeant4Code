@@ -1,7 +1,7 @@
 CMakeFiles/BTS.dir/src/EventAction.cc.o: \
- /home/ZHL/g4_test/StepToEventToRun/src/EventAction.cc \
+ /home/ZHL/g4_test/StepToRun/src/EventAction.cc \
  /usr/include/stdc-predef.h \
- /home/ZHL/g4_test/StepToEventToRun/include/EventAction.hh \
+ /home/ZHL/g4_test/StepToRun/include/EventAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4UserEventAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/globals.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4ios.hh \
@@ -208,7 +208,7 @@ CMakeFiles/BTS.dir/src/EventAction.cc.o: \
  /usr/local/include/CLHEP/Vector/ThreeVector.h \
  /usr/local/include/CLHEP/Vector/defs.h \
  /usr/local/include/CLHEP/Vector/ThreeVector.icc \
- /home/ZHL/g4_test/StepToEventToRun/include/RunAction.hh \
+ /home/ZHL/g4_test/StepToRun/include/RunAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4UserRunAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4Accumulable.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VAccumulable.hh \

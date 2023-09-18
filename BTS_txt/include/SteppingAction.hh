@@ -9,20 +9,19 @@ class G4LogicalVolume;
 namespace BTS
 {
 
-class EventAction;
+class RunAction;
 
 class SteppingAction : public G4UserSteppingAction
 {
   public:
-    SteppingAction(EventAction* eventAction);
+    SteppingAction(RunAction* runAction);
     ~SteppingAction() override = default;
 
     // method from the base class
     void UserSteppingAction(const G4Step*) override;
 
   private:
-    EventAction* fEventAction = nullptr;
-    G4LogicalVolume* fScoringVolume = nullptr;
+    RunAction* fRunAction = nullptr;
 };
 
 }

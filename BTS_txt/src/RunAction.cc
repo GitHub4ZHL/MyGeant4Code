@@ -23,7 +23,7 @@ void RunAction::BeginOfRunAction(const G4Run*)
 {
   // Open txt
   m_File.open("ResultOfSimulation", std::ios::out);
-  if (!m_File.is_open())
+  if (!m_File.is_open()) 
   {
     G4cerr << "Error opening file "<< G4endl;
     exit(1);
@@ -41,7 +41,8 @@ void RunAction::SavePosition(G4ThreeVector PosR)
 {
   Position_Run = PosR;
   m_File << "Hit position: " << Position_Run << "\n";
-  //G4cout << PosR <<G4endl;
+  //G4cout << PosR << G4endl;
 }
+
 
 }

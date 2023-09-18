@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4UI_USE_TCSH -DG4VIS_USE_OPENGL -DG4VIS_USE_OPENGLQT -DG4VIS_USE_QT3D -DG4VIS_USE_TOOLSSG_QT_GLES -DPTL_BUILD_DLL -DQT_3DCORE_LIB -DQT_3DEXTRAS_LIB -DQT_3DINPUT_LIB -DQT_3DLOGIC_LIB -DQT_3DRENDER_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/ZHL/g4_test/StepToEventToRun/include -isystem /home/ZHL/Geant4/install/include/Geant4 -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtPrintSupport -isystem /usr/include/qt5/Qt3DCore -isystem /usr/include/qt5/QtNetwork -isystem /usr/include/qt5/Qt3DExtras -isystem /usr/include/qt5/Qt3DRender -isystem /usr/include/qt5/Qt3DInput -isystem /usr/include/qt5/Qt3DLogic
+CXX_INCLUDES = -I/home/ZHL/g4_test/StepToRun/include -isystem /home/ZHL/Geant4/install/include/Geant4 -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtPrintSupport -isystem /usr/include/qt5/Qt3DCore -isystem /usr/include/qt5/QtNetwork -isystem /usr/include/qt5/Qt3DExtras -isystem /usr/include/qt5/Qt3DRender -isystem /usr/include/qt5/Qt3DInput -isystem /usr/include/qt5/Qt3DLogic
 
 CXX_FLAGS = -fPIC
 

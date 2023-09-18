@@ -18,14 +18,8 @@ class EventAction : public G4UserEventAction
 
     void BeginOfEventAction(const G4Event* event) override;
     void EndOfEventAction(const G4Event* event) override;
-
-    void GetPosition(G4ThreeVector Pos);
-    G4ThreeVector Position_Event;
-    //void AddEdep(G4double edep) { fEdep += edep; }
-
   private:
     RunAction* fRunAction = nullptr;
-    //G4double   fEdep = 0.;
 };
 
 }

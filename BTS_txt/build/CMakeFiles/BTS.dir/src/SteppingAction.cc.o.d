@@ -1,10 +1,8 @@
 CMakeFiles/BTS.dir/src/SteppingAction.cc.o: \
- /home/ZHL/g4_test/StepToEventToRun/src/SteppingAction.cc \
+ /home/ZHL/g4_test/StepToRun/src/SteppingAction.cc \
  /usr/include/stdc-predef.h \
- /home/ZHL/g4_test/StepToEventToRun/include/SteppingAction.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4UserSteppingAction.hh \
- /home/ZHL/Geant4/install/include/Geant4/globals.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4ios.hh \
+ /home/ZHL/g4_test/StepToRun/include/RunAction.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4UserRunAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4Types.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/11/complex \
@@ -149,6 +147,10 @@ CMakeFiles/BTS.dir/src/SteppingAction.cc.o: \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
  /home/ZHL/Geant4/install/include/Geant4/tls.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4Accumulable.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4VAccumulable.hh \
+ /home/ZHL/Geant4/install/include/Geant4/globals.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4ios.hh \
  /usr/include/c++/11/iostream /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -203,14 +205,23 @@ CMakeFiles/BTS.dir/src/SteppingAction.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/ZHL/g4_test/StepToEventToRun/include/EventAction.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4UserEventAction.hh \
- /home/ZHL/Geant4/install/include/Geant4/G4ThreeVector.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4VAccumulable.icc \
+ /home/ZHL/Geant4/install/include/Geant4/G4MergeMode.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4Accumulable.icc \
  /home/ZHL/Geant4/install/include/Geant4/globals.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4ThreeVector.hh \
  /usr/local/include/CLHEP/Vector/ThreeVector.h \
  /usr/local/include/CLHEP/Vector/defs.h \
  /usr/local/include/CLHEP/Vector/ThreeVector.icc \
- /home/ZHL/g4_test/StepToEventToRun/include/DetectorConstruction.hh \
+ /usr/include/c++/11/fstream \
+ /usr/include/c++/11/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/11/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc \
+ /home/ZHL/g4_test/StepToRun/include/SteppingAction.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4UserSteppingAction.hh \
+ /home/ZHL/g4_test/StepToRun/include/EventAction.hh \
+ /home/ZHL/Geant4/install/include/Geant4/G4UserEventAction.hh \
+ /home/ZHL/g4_test/StepToRun/include/DetectorConstruction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4Track.hh \
  /usr/local/include/CLHEP/Units/PhysicalConstants.h \
@@ -294,10 +305,6 @@ CMakeFiles/BTS.dir/src/SteppingAction.cc.o: \
  /home/ZHL/Geant4/install/include/Geant4/G4MaterialPropertyVector.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4PhysicsFreeVector.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4PhysicsVector.hh \
- /usr/include/c++/11/fstream \
- /usr/include/c++/11/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/11/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc \
  /home/ZHL/Geant4/install/include/Geant4/G4PhysicsVectorType.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4PhysicsVector.icc \
  /home/ZHL/Geant4/install/include/Geant4/G4IonisParamMat.hh \

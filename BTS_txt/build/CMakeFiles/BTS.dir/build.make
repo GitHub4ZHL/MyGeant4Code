@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ZHL/g4_test/StepToEventToRun
+CMAKE_SOURCE_DIR = /home/ZHL/g4_test/StepToRun
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ZHL/g4_test/StepToEventToRun/build
+CMAKE_BINARY_DIR = /home/ZHL/g4_test/StepToRun/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BTS.dir/depend.make
@@ -72,100 +72,100 @@ include CMakeFiles/BTS.dir/flags.make
 CMakeFiles/BTS.dir/BTS.cc.o: CMakeFiles/BTS.dir/flags.make
 CMakeFiles/BTS.dir/BTS.cc.o: ../BTS.cc
 CMakeFiles/BTS.dir/BTS.cc.o: CMakeFiles/BTS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BTS.dir/BTS.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/BTS.cc.o -MF CMakeFiles/BTS.dir/BTS.cc.o.d -o CMakeFiles/BTS.dir/BTS.cc.o -c /home/ZHL/g4_test/StepToEventToRun/BTS.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BTS.dir/BTS.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/BTS.cc.o -MF CMakeFiles/BTS.dir/BTS.cc.o.d -o CMakeFiles/BTS.dir/BTS.cc.o -c /home/ZHL/g4_test/StepToRun/BTS.cc
 
 CMakeFiles/BTS.dir/BTS.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BTS.dir/BTS.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToEventToRun/BTS.cc > CMakeFiles/BTS.dir/BTS.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToRun/BTS.cc > CMakeFiles/BTS.dir/BTS.cc.i
 
 CMakeFiles/BTS.dir/BTS.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BTS.dir/BTS.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToEventToRun/BTS.cc -o CMakeFiles/BTS.dir/BTS.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToRun/BTS.cc -o CMakeFiles/BTS.dir/BTS.cc.s
 
 CMakeFiles/BTS.dir/src/ActionInitialization.cc.o: CMakeFiles/BTS.dir/flags.make
 CMakeFiles/BTS.dir/src/ActionInitialization.cc.o: ../src/ActionInitialization.cc
 CMakeFiles/BTS.dir/src/ActionInitialization.cc.o: CMakeFiles/BTS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BTS.dir/src/ActionInitialization.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/ActionInitialization.cc.o -MF CMakeFiles/BTS.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/BTS.dir/src/ActionInitialization.cc.o -c /home/ZHL/g4_test/StepToEventToRun/src/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BTS.dir/src/ActionInitialization.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/ActionInitialization.cc.o -MF CMakeFiles/BTS.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/BTS.dir/src/ActionInitialization.cc.o -c /home/ZHL/g4_test/StepToRun/src/ActionInitialization.cc
 
 CMakeFiles/BTS.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BTS.dir/src/ActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToEventToRun/src/ActionInitialization.cc > CMakeFiles/BTS.dir/src/ActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToRun/src/ActionInitialization.cc > CMakeFiles/BTS.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/BTS.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BTS.dir/src/ActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToEventToRun/src/ActionInitialization.cc -o CMakeFiles/BTS.dir/src/ActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToRun/src/ActionInitialization.cc -o CMakeFiles/BTS.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o: CMakeFiles/BTS.dir/flags.make
 CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o: ../src/DetectorConstruction.cc
 CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o: CMakeFiles/BTS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o -c /home/ZHL/g4_test/StepToEventToRun/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/BTS.dir/src/DetectorConstruction.cc.o -c /home/ZHL/g4_test/StepToRun/src/DetectorConstruction.cc
 
 CMakeFiles/BTS.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BTS.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToEventToRun/src/DetectorConstruction.cc > CMakeFiles/BTS.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToRun/src/DetectorConstruction.cc > CMakeFiles/BTS.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/BTS.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BTS.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToEventToRun/src/DetectorConstruction.cc -o CMakeFiles/BTS.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToRun/src/DetectorConstruction.cc -o CMakeFiles/BTS.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/BTS.dir/src/EventAction.cc.o: CMakeFiles/BTS.dir/flags.make
 CMakeFiles/BTS.dir/src/EventAction.cc.o: ../src/EventAction.cc
 CMakeFiles/BTS.dir/src/EventAction.cc.o: CMakeFiles/BTS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BTS.dir/src/EventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/EventAction.cc.o -MF CMakeFiles/BTS.dir/src/EventAction.cc.o.d -o CMakeFiles/BTS.dir/src/EventAction.cc.o -c /home/ZHL/g4_test/StepToEventToRun/src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BTS.dir/src/EventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/EventAction.cc.o -MF CMakeFiles/BTS.dir/src/EventAction.cc.o.d -o CMakeFiles/BTS.dir/src/EventAction.cc.o -c /home/ZHL/g4_test/StepToRun/src/EventAction.cc
 
 CMakeFiles/BTS.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BTS.dir/src/EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToEventToRun/src/EventAction.cc > CMakeFiles/BTS.dir/src/EventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToRun/src/EventAction.cc > CMakeFiles/BTS.dir/src/EventAction.cc.i
 
 CMakeFiles/BTS.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BTS.dir/src/EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToEventToRun/src/EventAction.cc -o CMakeFiles/BTS.dir/src/EventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToRun/src/EventAction.cc -o CMakeFiles/BTS.dir/src/EventAction.cc.s
 
 CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/BTS.dir/flags.make
 CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o: ../src/PrimaryGeneratorAction.cc
 CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/BTS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o -c /home/ZHL/g4_test/StepToEventToRun/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.o -c /home/ZHL/g4_test/StepToRun/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToEventToRun/src/PrimaryGeneratorAction.cc > CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToRun/src/PrimaryGeneratorAction.cc > CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToEventToRun/src/PrimaryGeneratorAction.cc -o CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToRun/src/PrimaryGeneratorAction.cc -o CMakeFiles/BTS.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/BTS.dir/src/RunAction.cc.o: CMakeFiles/BTS.dir/flags.make
 CMakeFiles/BTS.dir/src/RunAction.cc.o: ../src/RunAction.cc
 CMakeFiles/BTS.dir/src/RunAction.cc.o: CMakeFiles/BTS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BTS.dir/src/RunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/RunAction.cc.o -MF CMakeFiles/BTS.dir/src/RunAction.cc.o.d -o CMakeFiles/BTS.dir/src/RunAction.cc.o -c /home/ZHL/g4_test/StepToEventToRun/src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BTS.dir/src/RunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/RunAction.cc.o -MF CMakeFiles/BTS.dir/src/RunAction.cc.o.d -o CMakeFiles/BTS.dir/src/RunAction.cc.o -c /home/ZHL/g4_test/StepToRun/src/RunAction.cc
 
 CMakeFiles/BTS.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BTS.dir/src/RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToEventToRun/src/RunAction.cc > CMakeFiles/BTS.dir/src/RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToRun/src/RunAction.cc > CMakeFiles/BTS.dir/src/RunAction.cc.i
 
 CMakeFiles/BTS.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BTS.dir/src/RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToEventToRun/src/RunAction.cc -o CMakeFiles/BTS.dir/src/RunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToRun/src/RunAction.cc -o CMakeFiles/BTS.dir/src/RunAction.cc.s
 
 CMakeFiles/BTS.dir/src/SteppingAction.cc.o: CMakeFiles/BTS.dir/flags.make
 CMakeFiles/BTS.dir/src/SteppingAction.cc.o: ../src/SteppingAction.cc
 CMakeFiles/BTS.dir/src/SteppingAction.cc.o: CMakeFiles/BTS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BTS.dir/src/SteppingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/SteppingAction.cc.o -MF CMakeFiles/BTS.dir/src/SteppingAction.cc.o.d -o CMakeFiles/BTS.dir/src/SteppingAction.cc.o -c /home/ZHL/g4_test/StepToEventToRun/src/SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ZHL/g4_test/StepToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BTS.dir/src/SteppingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BTS.dir/src/SteppingAction.cc.o -MF CMakeFiles/BTS.dir/src/SteppingAction.cc.o.d -o CMakeFiles/BTS.dir/src/SteppingAction.cc.o -c /home/ZHL/g4_test/StepToRun/src/SteppingAction.cc
 
 CMakeFiles/BTS.dir/src/SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BTS.dir/src/SteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToEventToRun/src/SteppingAction.cc > CMakeFiles/BTS.dir/src/SteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ZHL/g4_test/StepToRun/src/SteppingAction.cc > CMakeFiles/BTS.dir/src/SteppingAction.cc.i
 
 CMakeFiles/BTS.dir/src/SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BTS.dir/src/SteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToEventToRun/src/SteppingAction.cc -o CMakeFiles/BTS.dir/src/SteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ZHL/g4_test/StepToRun/src/SteppingAction.cc -o CMakeFiles/BTS.dir/src/SteppingAction.cc.s
 
 # Object files for target BTS
 BTS_OBJECTS = \
@@ -236,7 +236,7 @@ BTS: /home/ZHL/Geant4/install/lib64/libG4global.so
 BTS: /home/ZHL/Geant4/install/lib64/libG4ptl.so.2.3.3
 BTS: /usr/local/lib/libCLHEP-2.4.6.4.so
 BTS: CMakeFiles/BTS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable BTS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ZHL/g4_test/StepToRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable BTS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BTS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -248,6 +248,6 @@ CMakeFiles/BTS.dir/clean:
 .PHONY : CMakeFiles/BTS.dir/clean
 
 CMakeFiles/BTS.dir/depend:
-	cd /home/ZHL/g4_test/StepToEventToRun/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ZHL/g4_test/StepToEventToRun /home/ZHL/g4_test/StepToEventToRun /home/ZHL/g4_test/StepToEventToRun/build /home/ZHL/g4_test/StepToEventToRun/build /home/ZHL/g4_test/StepToEventToRun/build/CMakeFiles/BTS.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ZHL/g4_test/StepToRun/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ZHL/g4_test/StepToRun /home/ZHL/g4_test/StepToRun /home/ZHL/g4_test/StepToRun/build /home/ZHL/g4_test/StepToRun/build /home/ZHL/g4_test/StepToRun/build/CMakeFiles/BTS.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BTS.dir/depend
 

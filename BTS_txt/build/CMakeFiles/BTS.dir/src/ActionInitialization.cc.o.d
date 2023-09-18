@@ -1,7 +1,7 @@
 CMakeFiles/BTS.dir/src/ActionInitialization.cc.o: \
- /home/ZHL/g4_test/StepToEventToRun/src/ActionInitialization.cc \
+ /home/ZHL/g4_test/StepToRun/src/ActionInitialization.cc \
  /usr/include/stdc-predef.h \
- /home/ZHL/g4_test/StepToEventToRun/include/PrimaryGeneratorAction.hh \
+ /home/ZHL/g4_test/StepToRun/include/PrimaryGeneratorAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4ParticleGun.hh \
  /home/ZHL/Geant4/install/include/Geant4/globals.hh \
@@ -236,7 +236,7 @@ CMakeFiles/BTS.dir/src/ActionInitialization.cc.o: \
  /home/ZHL/Geant4/install/include/Geant4/G4PrimaryParticle.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4ParticleMomentum.hh \
  /home/ZHL/Geant4/install/include/Geant4/globals.hh \
- /home/ZHL/g4_test/StepToEventToRun/include/RunAction.hh \
+ /home/ZHL/g4_test/StepToRun/include/RunAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4UserRunAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4Accumulable.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VAccumulable.hh \
@@ -248,9 +248,9 @@ CMakeFiles/BTS.dir/src/ActionInitialization.cc.o: \
  /usr/include/c++/11/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/11/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/ZHL/g4_test/StepToEventToRun/include/EventAction.hh \
+ /home/ZHL/g4_test/StepToRun/include/EventAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4UserEventAction.hh \
- /home/ZHL/g4_test/StepToEventToRun/include/SteppingAction.hh \
+ /home/ZHL/g4_test/StepToRun/include/SteppingAction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4UserSteppingAction.hh \
- /home/ZHL/g4_test/StepToEventToRun/include/ActionInitialization.hh \
+ /home/ZHL/g4_test/StepToRun/include/ActionInitialization.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VUserActionInitialization.hh

@@ -22,10 +22,9 @@ class RunAction : public G4UserRunAction
     void BeginOfRunAction(const G4Run*) override;
     void EndOfRunAction(const G4Run*) override;
     void SavePosition(G4ThreeVector PosR);
-
     G4ThreeVector Position_Run;
   private:
-    std::ofstream m_File;
+    std::ofstream m_File; // 输出文档 
 };
 
 }

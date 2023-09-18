@@ -1,3 +1,4 @@
+#include "RunAction.hh"
 #include "SteppingAction.hh"
 #include "EventAction.hh"
 #include "DetectorConstruction.hh"
@@ -10,10 +11,9 @@
 namespace BTS
 {
 
-SteppingAction::SteppingAction(EventAction* eventAction)
-: fEventAction(eventAction)
+SteppingAction::SteppingAction(RunAction* runAction)
+: fRunAction(runAction)
 {}
-
 
 void SteppingAction::UserSteppingAction(const G4Step* step)
 {
@@ -22,7 +22,10 @@ void SteppingAction::UserSteppingAction(const G4Step* step)
   G4ThreeVector position = track->GetPosition();
     
   //G4cout << position << G4endl;
-  fEventAction->GetPosition(position);
+  if (track->GetDefinition()->GetParticleName()!="gamma" && volume->GetName()!="World")
+  {
+    fRunAction->SavePosition(position);
+  }
 }
 
 }

@@ -1,6 +1,6 @@
-CMakeFiles/BTS.dir/BTS.cc.o: /home/ZHL/g4_test/StepToEventToRun/BTS.cc \
+CMakeFiles/BTS.dir/BTS.cc.o: /home/ZHL/g4_test/StepToRun/BTS.cc \
  /usr/include/stdc-predef.h \
- /home/ZHL/g4_test/StepToEventToRun/include/DetectorConstruction.hh \
+ /home/ZHL/g4_test/StepToRun/include/DetectorConstruction.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/x86_64-redhat-linux/bits/c++config.h \
@@ -204,7 +204,7 @@ CMakeFiles/BTS.dir/BTS.cc.o: /home/ZHL/g4_test/StepToEventToRun/BTS.cc \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
  /home/ZHL/Geant4/install/include/Geant4/globals.hh \
- /home/ZHL/g4_test/StepToEventToRun/include/ActionInitialization.hh \
+ /home/ZHL/g4_test/StepToRun/include/ActionInitialization.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4VUserActionInitialization.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4RunManagerFactory.hh \
  /home/ZHL/Geant4/install/include/Geant4/G4RunManager.hh \
