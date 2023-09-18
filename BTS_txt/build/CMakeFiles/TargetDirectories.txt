@@ -1,3 +1,0 @@
-/home/ZHL/g4_test/StepToRun/build/CMakeFiles/rebuild_cache.dir
-/home/ZHL/g4_test/StepToRun/build/CMakeFiles/edit_cache.dir
-/home/ZHL/g4_test/StepToRun/build/CMakeFiles/BTS.dir
