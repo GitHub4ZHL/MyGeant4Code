@@ -1,19 +1,21 @@
-#ifndef BTSActionInitialization_h
-#define BTSActionInitialization_h 1
+#ifndef B1ActionInitialization_h
+#define B1ActionInitialization_h 1
 
 #include "G4VUserActionInitialization.hh"
-
+#include <fstream>
 namespace BTS
 {
 
 class ActionInitialization : public G4VUserActionInitialization
 {
   public:
-    ActionInitialization() = default;
-    ~ActionInitialization() override = default;
+    ActionInitialization();
+    virtual ~ActionInitialization() override;
 
     void BuildForMaster() const override;
     void Build() const override;
+  private:
+    
 };
 
 }
