@@ -17,12 +17,11 @@ class SteppingAction : public G4UserSteppingAction
     SteppingAction(EventAction* eventAction);
     ~SteppingAction() override = default;
     virtual void UserSteppingAction(const G4Step*);
+
+    void SetOutFilePP(std::ofstream** OutFilePP);
   private:
-    G4double trackId = 0;
-    G4double parentId = 0;
-    G4double energy = 0;
-    G4String  processName = "0";
     EventAction* fEventAction = nullptr;
+    std::ofstream** m_OutFilePP; 
 };
 
 }

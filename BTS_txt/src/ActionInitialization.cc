@@ -7,7 +7,7 @@
 namespace BTS
 {
 
-ActionInitialization::ActionInitialization(): G4VUserActionInitialization()
+ActionInitialization::ActionInitialization(std::ofstream** outfilePP): G4VUserActionInitialization(), m_OutFilePP(outfilePP)
 {}
 ActionInitialization::~ActionInitialization()
 {}
@@ -15,6 +15,7 @@ ActionInitialization::~ActionInitialization()
 void ActionInitialization::BuildForMaster() const
 {
   auto runAction = new RunAction;
+  runAction->SetOutFilePP(m_OutFilePP);
   SetUserAction(runAction);
 }
 
@@ -23,12 +24,14 @@ void ActionInitialization::Build() const
   SetUserAction(new PrimaryGeneratorAction);
 
   auto runAction = new RunAction;
+  runAction->SetOutFilePP(m_OutFilePP);
   SetUserAction(runAction);
 
   auto eventAction = new EventAction();
   SetUserAction(eventAction);
 
   auto stepAction = new SteppingAction(eventAction);
+  stepAction->SetOutFilePP(m_OutFilePP);
   SetUserAction(stepAction); 
 }
 

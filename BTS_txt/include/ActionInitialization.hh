@@ -9,13 +9,13 @@ namespace BTS
 class ActionInitialization : public G4VUserActionInitialization
 {
   public:
-    ActionInitialization();
+    ActionInitialization(std::ofstream** outfilePP);
     virtual ~ActionInitialization() override;
 
     void BuildForMaster() const override;
     void Build() const override;
   private:
-    
+    std::ofstream** m_OutFilePP;
 };
 
 }

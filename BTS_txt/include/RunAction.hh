@@ -17,9 +17,11 @@ class RunAction : public G4UserRunAction
     RunAction();
     ~RunAction() override = default;
     virtual void BeginOfRunAction(const G4Run*);
-    virtual void EndOfRunAction(const G4Run*);
+    virtual void EndOfRunAction(const G4Run* run);
+
+    void SetOutFilePP(std::ofstream** OutFilePP);
   private:
-    
+    std::ofstream** m_OutFilePP;
 };
 
 }
