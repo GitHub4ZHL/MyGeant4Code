@@ -47,7 +47,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   auto DUTSld = new G4Box("DUT", 10*cm, 16*cm, 0.1*cm);
   auto DUTLog = new G4LogicalVolume(DUTSld, Mat, "DUTLog");
   auto DUTPhys = new G4PVPlacement(0, G4ThreeVector(0, 0, 0*cm), DUTLog, "DUTPhys", logicWorld, false, 0, checkOverlaps);
-
+  
   return physWorld;
 }
 

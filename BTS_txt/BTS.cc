@@ -15,7 +15,7 @@ using namespace BTS;
 
 int main(int argc,char** argv)
 {
-  std::ofstream* OutFileP = nullptr;
+  //std::ofstream* OutFileP = nullptr;
 
   G4UIExecutive* ui = nullptr;
   if ( argc == 1 ) { ui = new G4UIExecutive(argc, argv); }
@@ -30,7 +30,7 @@ int main(int argc,char** argv)
   physicsList->SetVerboseLevel(1);
   runManager->SetUserInitialization(physicsList);
 
-  runManager->SetUserInitialization(new ActionInitialization(&OutFileP));
+  runManager->SetUserInitialization(new ActionInitialization());
 
   G4VisManager* visManager = new G4VisExecutive;
   visManager->Initialize();
