@@ -10,9 +10,6 @@
 #include "Randomize.hh"
 #include <iomanip>
 
-namespace BTS
-{
-
 SteppingAction::SteppingAction(EventAction* eventAction): fEventAction(eventAction)
 {}
 
@@ -55,6 +52,4 @@ if (track->GetDefinition()->GetParticleName()!="gamma" && volume->GetName()!="Wo
 
   analysisManager->AddNtupleRow();
   }
-}
-
 }

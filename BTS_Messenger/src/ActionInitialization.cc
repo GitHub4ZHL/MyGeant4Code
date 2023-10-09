@@ -4,8 +4,6 @@
 #include "EventAction.hh"
 #include "SteppingAction.hh"
 #include <fstream>
-namespace BTS
-{
 
 ActionInitialization::ActionInitialization(): G4VUserActionInitialization()
 {}
@@ -32,4 +30,3 @@ void ActionInitialization::Build() const
   SetUserAction(stepAction); 
 }
 
-}

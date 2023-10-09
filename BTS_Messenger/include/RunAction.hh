@@ -8,9 +8,6 @@
 class Run;
 class G4Step;
 
-namespace BTS
-{
-
 class RunAction : public G4UserRunAction
 {
   public:
@@ -21,8 +18,6 @@ class RunAction : public G4UserRunAction
   private:
     
 };
-
-}
 
 #endif
 

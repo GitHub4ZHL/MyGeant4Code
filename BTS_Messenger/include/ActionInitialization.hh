@@ -3,8 +3,6 @@
 
 #include "G4VUserActionInitialization.hh"
 #include <fstream>
-namespace BTS
-{
 
 class ActionInitialization : public G4VUserActionInitialization
 {
@@ -17,7 +15,5 @@ class ActionInitialization : public G4VUserActionInitialization
   private:
     
 };
-
-}
 
 #endif

@@ -6,9 +6,6 @@
 
 class G4LogicalVolume;
 
-namespace BTS
-{
-
 class EventAction;
 
 class SteppingAction : public G4UserSteppingAction
@@ -24,7 +21,5 @@ class SteppingAction : public G4UserSteppingAction
     G4String  processName = "0";
     EventAction* fEventAction = nullptr;
 };
-
-}
 
 #endif

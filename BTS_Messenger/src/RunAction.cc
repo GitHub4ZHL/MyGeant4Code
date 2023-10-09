@@ -5,9 +5,6 @@
 #include "G4UnitsTable.hh"
 #include "G4SystemOfUnits.hh"
 
-namespace BTS
-{
-
 RunAction::RunAction()
 {
   auto analysisManager = G4AnalysisManager::Instance();
@@ -49,6 +46,4 @@ void RunAction::EndOfRunAction(const G4Run*)
   auto analysisManager = G4AnalysisManager::Instance();
   analysisManager->Write();
   analysisManager->CloseFile();
-}
-
 }

@@ -5,9 +5,6 @@
 #include "G4SystemOfUnits.hh"
 #include "Randomize.hh"
 
-namespace BTS
-{
-
 PrimaryGeneratorAction::PrimaryGeneratorAction()
 {
   fParticleGun  = new G4ParticleGun(1);
@@ -31,6 +28,4 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 
   fParticleGun->SetParticlePosition(G4ThreeVector(x0,y0,z0));
   fParticleGun->GeneratePrimaryVertex(anEvent);
-}
-
 }

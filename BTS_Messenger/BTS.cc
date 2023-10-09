@@ -11,8 +11,6 @@
 
 #include "Randomize.hh"
 
-using namespace BTS;
-
 int main(int argc,char** argv)
 {
   G4UIExecutive* ui = nullptr;
