@@ -37,7 +37,7 @@ void SteppingAction::UserSteppingAction(const G4Step* step)
   G4String particleId = track->GetParticleDefinition()->GetParticleName();
   G4String processName = step->GetPostStepPoint()->GetProcessDefinedStep()->GetProcessName();
 
-if (track->GetDefinition()->GetParticleName()!="gamma" && volume->GetName()!="World")
+if (volume->GetName()!="World")
   {
   analysisManager->FillNtupleDColumn(0, 0, energy);
   analysisManager->FillNtupleSColumn(0, 1, processName);

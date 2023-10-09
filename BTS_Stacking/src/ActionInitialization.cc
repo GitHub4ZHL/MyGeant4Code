@@ -3,12 +3,8 @@
 #include "RunAction.hh"
 #include "EventAction.hh"
 #include "SteppingAction.hh"
+#include "StackingAction.hh"
 #include <fstream>
-
-ActionInitialization::ActionInitialization(): G4VUserActionInitialization()
-{}
-ActionInitialization::~ActionInitialization()
-{}
 
 void ActionInitialization::BuildForMaster() const
 {
@@ -19,14 +15,20 @@ void ActionInitialization::BuildForMaster() const
 void ActionInitialization::Build() const
 {
   SetUserAction(new PrimaryGeneratorAction);
-
+  
   auto runAction = new RunAction;
   SetUserAction(runAction);
+
+  auto stackingAction = new StackingAction;
+  SetUserAction(stackingAction);
+
+  //SetUserAction(new StackingAction);
 
   auto eventAction = new EventAction();
   SetUserAction(eventAction);
 
   auto stepAction = new SteppingAction(eventAction);
-  SetUserAction(stepAction); 
+  SetUserAction(stepAction);
+
 }
 

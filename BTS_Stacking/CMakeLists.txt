@@ -59,3 +59,13 @@ foreach(_script ${BTS_SCRIPTS})
 endforeach()
 
 #----------------------------------------------------------------------------
+# For internal Geant4 use - but has no effect if you build this
+# example standalone
+#
+add_custom_target(BeamTelescope DEPENDS BeamTelescope)
+
+#----------------------------------------------------------------------------
+# Install the executable to 'bin' directory under CMAKE_INSTALL_PREFIX
+#
+install(TARGETS BTS DESTINATION bin )
+#----------------------------------------------------------------------------
